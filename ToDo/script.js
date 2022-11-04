@@ -1,13 +1,20 @@
-let text = document.getElementById("text");
+let text = document.getElementById("task-text-input");
 let addTaskButton = document.getElementById('add-task');
 let saveTaskButton = document.getElementById("save-todo");
-let listBox = document.getElementById("listBox");
+let listBox = document.getElementById('listBox');
 let saveIndex = document.getElementById("saveIndex");
 
-let todoList = [];
+
 
 addTaskButton.addEventListener('click', function(){
-    console.log('hi')
-    todoList.push(text);
-    console.log(todoList)
+    text.changeInput
+    console.log(text)
+    let div = document.createElement('div');
+    div.id = "aTask";
+    div.classList.add ("aTask")
+    listBox.appendChild(div)
+    div.style.backgroundColor = "blue"
+    div.style.height = 135 + 'px' 
+    div.innerHTML = text
     });
+
