@@ -1,0 +1,9 @@
+h1 {
+    text-align: center;
+}
+
+#libform {
+    display: grid;
+    grid-template-columns: repeat(3, 15%);
+    grid-row-gap: 3%;
+}
