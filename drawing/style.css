@@ -118,3 +118,90 @@
     height: 30px
 }
 
+/*grass*/
+.grass {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 3px;
+
+    }
+
+.gr1 {
+    border-right: 1.5px solid white;
+    border-left: 1.5px solid white;
+    border-radius: 99%;
+    width: 1.5px;
+    background-color: green;
+    height: 26px;
+}
+
+.gr2 {
+    border-right: 2px solid white;
+    border-left: 1.5px solid white;
+    border-radius: 97%;
+    background-color: green;
+    width: 1.5px;
+    height: 18px;
+}
+
+.gr3 {
+    border-right: 2.5px solid white;
+    border-left: 2.5px solid white;
+    border-radius: 99%;
+    background-color: green;
+    width: 2px;
+    height: 30px;
+}
+
+.gr4 {
+    border-right: 1.5px solid white;
+    border-left: 1.5px solid white;
+    border-bottom-left-radius: 90%;
+    border-top-right-radius: 80%;
+    background-color: green;
+    width: 2px;
+    height: 19px;
+}
+
+.gr5 {
+    border-right: 1.5px solid white;
+    border-left: 3.5px solid white;
+    border-top-left-radius: 80%;
+    border-bottom-right-radius: 50%;
+    border-bottom: 1px;
+    background-color: green;
+    width: 2px;
+    height: 23px;
+}
+
+.gr6 {
+    border-right: 2.5px solid white;
+    border-left: 1px solid white;
+    border-radius: 80%;
+    border-bottom: 3px;
+    background-color: green;
+    width: 1.8px;
+    height: 27px;
+}
+
+.gr7 {
+    border-right: 1px solid white;
+    border-left: 4px solid white;
+    border-bottom-left-radius: 97%;
+    border-bottom-right-radius: 50%;
+    background-color: green;
+    width: 1.8px;
+    height: 29px;
+}
+
+.gr8 {
+    border-right: 4px solid white;
+    border-left: 1px solid white;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 97%;
+    background-color: green;
+    width: 2px;
+    height: 29px;
+}
