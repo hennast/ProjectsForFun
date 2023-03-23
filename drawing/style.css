@@ -4,8 +4,34 @@
 }
 .title {
     text-align: center;
+    padding: 0px;
+    
 }
-/* lines up each container*/
+/*sky*/
+.sky {
+    width: 900px;
+    height: 50px;
+    background: linear-gradient(10deg, rgb(13, 232, 232),rgb(93, 255, 255), rgb(12, 234, 234),rgb(12, 234, 234),rgb(12, 234, 234), rgb(170, 241, 241), rgb(12, 234, 234),rgb(12, 234, 234),rgb(13, 232, 232) );
+    padding: 0px;
+    margin: auto;
+}
+.sky1 {
+    width: 900px;
+    height: 50px;
+    background: linear-gradient(-20deg, rgb(13, 232, 232),rgb(173, 247, 247), rgb(12, 234, 234),rgb(12, 234, 234),rgb(12, 234, 234), rgb(36, 237, 237), rgb(12, 234, 234),rgb(12, 234, 234),rgb(13, 232, 232) );
+    padding: 0px;
+    margin: auto;
+}
+.sun {
+    border-radius: 50%;
+    background-color: yellow;
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+/* lines up each container of family unit*/
 .family {
     display: flex;
     flex-direction: row;
@@ -37,6 +63,7 @@
     justify-content: center;
     border-bottom: 0px;
     padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .body {
@@ -65,22 +92,24 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-top: 0px;
-    border-top: 0px;
+    margin-top: 0px;
 }
 
 .leg1{
-    background: linear-gradient(135deg, white 15px, black 18px, white 21px);
+    background: linear-gradient(115deg, white 15px, black 18px, white 21px);
     width: 20px;
     height: 30px;
+   
 }
 
 .leg2{
-    background: linear-gradient(45deg, white 14px, black 17px, white 20px);
+    background: linear-gradient(60deg, white 12px, black 15px, white 18px);
     width: 20px;
     height: 30px;
 
 }
+
+/*diff people diff heights*/
 
 #shmaryahu .body {
     height: 50px;
@@ -124,7 +153,7 @@
     flex-direction: row;
     align-items: flex-end;
     justify-content: center;
-    padding: 3px;
+    margin-top: -20px;
 
     }
 
