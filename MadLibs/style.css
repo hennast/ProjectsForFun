@@ -11,3 +11,9 @@ h1 {
 .placeholder {
     color: blue;
 }
+
+#error {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+}
